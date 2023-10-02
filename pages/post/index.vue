@@ -111,6 +111,7 @@ export default {
       currentPage: 1,
       currentLimit: 12,
       isStopGetArticle: false,
+      idArticle: "",
     };
   },
 
@@ -123,6 +124,7 @@ export default {
 
       // Lấy giá trị của tham số "post_category" từ chuỗi truy vấn
       const id = urlObj.searchParams.get("post_category");
+      this.idArticle = id;
 
       this.handleGetPopularArticles("news", this.currentPage, id);
     } else {
@@ -175,7 +177,7 @@ export default {
           (window.innerHeight + window.pageYOffset);
         if (remaining < 400) {
           let newPage = this.currentPage + 1;
-          self.handleGetPopularArticles("news", newPage);
+          self.handleGetPopularArticles("news", newPage, this.idArticle);
           this.currentPage = newPage;
         }
       }

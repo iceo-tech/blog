@@ -19,6 +19,50 @@
         />
 
         <div class="article_content" v-html="dataArticle.post_content"></div>
+
+        <div v-if="dataListArticle && dataListArticle.length > 0">
+          <h1 class="article_h1">Bài viết tương tự</h1>
+
+          <div
+            class="body_article__breadcrumb__card"
+            v-for="(articleItem, index) in dataListArticle"
+            :key="'item_articles_' + index"
+          >
+            <a :href="'/post/' + articleItem.post_slug">
+              <!-- <a href="#" style="display: none"> -->
+              <div
+                class="body_article__breadcrumb__card__avatar"
+                v-if="articleItem.post_avatar"
+              >
+                <img
+                  :src="articleItem.post_avatar.media_thumbnail"
+                  v-if="validURL(articleItem.post_avatar.media_thumbnail)"
+                  :alt="articleItem.post_title"
+                />
+              </div>
+
+              <div class="body_article__breadcrumb__card__body">
+                <div class="body_article__breadcrumb__card__body__title">
+                  {{ articleItem.post_title }}
+                </div>
+                <div class="body_article__breadcrumb__card__body__bottom">
+                  Đọc thêm
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <br />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -34,19 +78,25 @@ export default {
   data() {
     return {
       dataArticle: [],
+      dataListArticle: [],
     };
   },
 
   created() {
     const route = useRoute();
-    console.log(route, "route");
 
     this.handleGetPopularArticles(route.params.slug);
   },
 
+  watch: {
+    dataArticle(e) {
+      let categoryId = e?.post_category?._id;
+      this.handleGetListArticles("news", 1, categoryId);
+    },
+  },
+
   methods: {
     handleGetPopularArticles(params) {
-      console.log(params);
       articleService
         .getArticleBySlug(params)
         .then((response) => {
@@ -57,6 +107,48 @@ export default {
         .catch((error) => {
           console.log(error);
         });
+    },
+
+    handleGetListArticles(articleType, articlePage, articleCategory) {
+      this.isLoading = true;
+      articleService
+        .getArticleByType(articleType, articlePage, articleCategory, "3")
+        .then((response) => {
+          if (response && response.length) {
+            const optionType = [];
+
+            for (let item of response) {
+              if (item._id !== this.dataArticle._id) {
+                optionType.push(item);
+              }
+            }
+
+            console.log(optionType, "optionType");
+            this.dataListArticle = optionType;
+          } else {
+            this.isStopGetArticle = true;
+          }
+
+          this.isLoading = false;
+        })
+        .catch((error) => {
+          //Error
+          this.isLoading = false;
+          this.isStopGetArticle = true;
+        });
+    },
+
+    validURL(str) {
+      var pattern = new RegExp(
+        "^(https?:\\/\\/)?" + // protocol
+          "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" + // domain name
+          "((\\d{1,3}\\.){3}\\d{1,3}))" + // OR ip (v4) address
+          "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" + // port and path
+          "(\\?[;&a-z\\d%_.~+=-]*)?" + // query string
+          "(\\#[-a-z\\d_]*)?$",
+        "i"
+      ); // fragment locator
+      return !!pattern.test(str);
     },
   },
 };
@@ -73,6 +165,13 @@ export default {
   padding: 10px;
   content: "";
   // margin-top: 80px;
+  @include breakpoint(phablet) {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 
   h1.article_h1 {
     width: 100%;
@@ -273,6 +372,11 @@ export default {
       padding: 10px;
       box-sizing: border-box;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 50px 100px;
+
+      @include breakpoint(phablet) {
+        padding: 0;
+      }
 
       img {
         width: 100%;
@@ -283,7 +387,80 @@ export default {
       }
 
       a {
-        color: $primaryColor;
+        color: $primaryBackground;
+      }
+
+      &__card:hover {
+        transform: scale(
+          1.01
+        ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transition: 0.2s all ease-in-out;
+      }
+
+      &__card {
+        display: flex;
+        max-height: 150px;
+        border-radius: 2px;
+        align-items: center;
+        height: 100%;
+        margin-top: 30px !important;
+        padding: 0;
+        box-sizing: border-box;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        @include breakpoint(small_phablet) {
+          display: inline;
+        }
+
+        a {
+          color: $primaryBackground;
+          display: contents;
+          // color: var(--color-heading);
+          text-decoration: none;
+          outline: none;
+          transition: 0.3s;
+        }
+
+        &__avatar {
+          width: 290px;
+          border-radius: 2px;
+          overflow: hidden;
+          position: relative;
+          padding: 0;
+          height: 150px;
+          min-width: 290px;
+          min-height: 150px;
+
+          @include breakpoint(small_phablet) {
+            width: auto;
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        &__body {
+          padding: 30px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          &__title {
+            font-size: 26px;
+            font-weight: 700;
+          }
+
+          &__bottom {
+            display: flex;
+            // justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+          }
+        }
       }
     }
   }
