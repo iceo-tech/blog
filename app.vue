@@ -654,8 +654,8 @@
 </template>
 
 <script>
-import Header from "./pages/Layout/Header.vue";
-import Footer from "./pages/Layout/Footer.vue";
+// import Header from "./pages/Layout/Header.vue";
+// import Footer from "./pages/Layout/Footer.vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "./assets/media/bootstrap.min.css";
 import "./assets/media/slick.css";
@@ -676,31 +676,7 @@ import "./assets/media/feather.css";
 import "./assets/media/style.css";
 
 import jQuery from "jquery";
-// import "./assets/media/main.js.download";
 
-// import "./assets/media/modernizr.min.js.download";
-// import "./assets/media/jquery.js.download";
-// import "./assets/media/bootstrap.min.js.download";
-// import "./assets/media/sal.js.download";
-// import "./assets/media/swiper.js.download";
-// import "./assets/media/magnify.min.js.download";
-// import "./assets/media/jquery-appear.js.download";
-// import "./assets/media/odometer.js.download";
-// import "./assets/media/backtotop.js.download";
-// import "./assets/media/isotop.js.download";
-// import "./assets/media/imageloaded.js.download";
-
-// import "./assets/media/wow.js.download";
-// import "./assets/media/waypoint.min.js.download";
-// import "./assets/media/easypie.js.download";
-// import "./assets/media/text-type.js.download";
-// import "./assets/media/jquery-one-page-nav.js.download";
-// import "./assets/media/bootstrap-select.min.js.download";
-// import "./assets/media/jquery-ui.js.download";
-// import "./assets/media/magnify-popup.min.js.download";
-// import "./assets/media/paralax-scroll.js.download";
-// import "./assets/media/paralax.min.js.download";
-// import "./assets/media/countdown.js.download";
 import "./assets/media/plyr.js.download";
 
 import { categoryService } from "./store/category.store.reducer";
@@ -708,8 +684,8 @@ import { categoryService } from "./store/category.store.reducer";
 export default {
   name: "App",
   components: {
-    Header,
-    Footer,
+    // Header,
+    // Footer,
   },
 
   data() {
@@ -725,10 +701,6 @@ export default {
   created() {
     this.handleGetTotalCategory();
   },
-
-  // created() {
-  //   popupMobileMenu();
-  // },
 
   methods: {
     handleToggle() {
@@ -762,18 +734,6 @@ export default {
     },
   },
 };
-
-// try {
-//   let item = localStorage.getItem("user") || "";
-//   if (!item) {
-//     document.body.style.display = "block";
-//   } else {
-//     window.location.href = "/v";
-//   }
-// } catch (error) {
-//   console.log(error, "error");
-//   document.body.style.display = "block";
-// }
 </script>
 
 <style lang="scss">

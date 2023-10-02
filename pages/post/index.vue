@@ -88,7 +88,9 @@
       v-if="(!dataArticle || dataArticle.length === 0) && !isLoading"
     >
       <img src="../../assets/media/withdrawal.png" />
-      <div class="advisor_category__empty__heading">Article is empty!</div>
+      <div class="advisor_category__empty__heading">
+        Danh sách bài viết trống!
+      </div>
     </div>
   </div>
 </template>
