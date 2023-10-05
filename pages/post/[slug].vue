@@ -20,7 +20,10 @@
 
         <div class="article_content" v-html="dataArticle.post_content"></div>
 
-        <div v-if="dataListArticle && dataListArticle.length > 0">
+        <div
+          class="article_list"
+          v-if="dataListArticle && dataListArticle.length > 0"
+        >
           <h1 class="article_h1">Bài viết tương tự</h1>
 
           <div
@@ -198,8 +201,13 @@ export default {
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 10px;
+    max-width: 100%;
     // box-sizing: border-box;
     // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    @include breakpoint(phablet) {
+      width: 80%;
+    }
 
     img {
       max-width: 100% !important;
@@ -301,6 +309,11 @@ export default {
       font-size: 22px;
       margin-bottom: 16px;
     }
+  }
+
+  .article_list {
+    width: 100%;
+    display: inline-block;
   }
 
   .body_article {

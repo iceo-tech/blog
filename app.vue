@@ -101,68 +101,522 @@
                           class="submenu"
                           style="
                             display: grid;
-                            grid-template-columns: repeat(2, auto);
-                            width: 570px;
+                            grid-template-columns: repeat(4, auto);
+                            width: 65vw;
                           "
                         >
+                          <!-- width: 1000px; -->
+
                           <li class="has-dropdown">
-                            <a href="nguoi-dung-tich-cuc.html"
-                              >Nhận diện người dùng tích cực</a
+                            <a
+                              href="/feature/bang-xep-hang.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/5.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Bảng xếp hạng
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Chìa khóa tạo động lực cho học viên
+                                </p>
+                              </div></a
+                            >
+                          </li>
+
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/trao-thuong.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/2.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Trao thưởng
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Tự tạo cơ chế khuyến khích cho người dùng
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/phan-quyen-quan-tri.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/12.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Phân quyền quản trị
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Tự quyết định quyền quản trị cộng đồng
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/tao-su-kien.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/8.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Tạo sự kiện
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Tổ chức, quản lý lịch trình tiện lợi, linh
+                                  hoạt
+                                </p>
+                              </div></a
+                            >
+                          </li>
+
+                          <!-- </li> -->
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/mang-xa-hoi.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/7.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Mạng xã hội của bạn
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Mạng xã hội riêng kết nối với tệp người dùng
+                                  của riêng bạn
+                                </p>
+                              </div></a
                             >
                           </li>
                           <li class="has-dropdown">
-                            <a href="#">Fan cuồng nội dung của bạn</a>
+                            <a
+                              href="/feature/mo-rong-thanh-vien.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/15.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Mở rộng thành viên
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Gia tăng số lượng thành viên nhanh chóng
+                                </p>
+                              </div></a
+                            >
                           </li>
+
                           <li class="has-dropdown">
-                            <a href="trao-thuong.html">Trao thưởng</a>
+                            <a
+                              href="/feature/noi-dung-noi-bat.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/14.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Nội dung nổi bật
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Ghim bài viết bạn muốn hiển thị lên đầu trang
+                                  cá nhân
+                                </p>
+                              </div></a
+                            >
                           </li>
+
                           <li class="has-dropdown">
-                            <a href="mang-xa-hoi.html">Mạng xã hội của bạn</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="mo-rong-thanh-vien.html"
-                              >Mở rộng thành viên</a
+                            <a
+                              href="/feature/thiet-lap-thong-bao.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/9.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Thiết lập thông báo
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Người dùng không bỏ lỡ tin tức nào từ nhà đào
+                                  tạo
+                                </p>
+                              </div></a
                             >
                           </li>
                           <li class="has-dropdown">
-                            <a href="phan-quyen-quan-tri.html"
-                              >Phân quyền quản trị
+                            <a
+                              href="/feature/thiet-lap-khoa-hoc.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/13.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Thiết lập khóa học
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Cá nhân hóa việc đào tạo, nâng cao hiệu suất
+                                  công việc
+                                </p>
+                              </div></a
+                            >
+                          </li>
+
+                          <li class="has-dropdown">
+                            <a href="#" style="display: flex">
+                              <img
+                                src="./assets/media/10.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Tiện lợi với ứng dụng di động
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Truy cập đơn giản, tương tác mọi lúc mọi nơi
+                                </p>
+                              </div></a
+                            >
+                          </li>
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/vung-quang-cao.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/20.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Vùng quảng cáo
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Thiết lập vị trí quảng cáo phù hợp giúp đột
+                                  phá doanh số
+                                </p>
+                              </div></a
+                            >
+                          </li>
+
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/nguoi-dung-tich-cuc.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/4.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Nhận diện người dùng tích cực
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Dễ dàng xác định người dùng có tương tác mạnh
+                                  mẽ
+                                </p>
+                              </div>
                             </a>
                           </li>
                           <li class="has-dropdown">
-                            <a href="noi-dung-noi-bat.html">Nội dung nổi bật</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="bang-xep-hang.html">Bảng xếp hạng</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="tao-su-kien.html">Tạo sự kiện</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="thiet-lap-thong-bao.html"
-                              >Thiết lập thông báo</a
+                            <a href="#" style="display: flex">
+                              <img
+                                src="./assets/media/3.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Fan cuồng nội dung của bạn
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Thoải mái tương tác chặt chẽ với fan cuồng
+                                  hiệu quả hơn
+                                </p>
+                              </div></a
                             >
                           </li>
+
                           <li class="has-dropdown">
-                            <a href="thiet-lap-khoa-hoc.html"
-                              >Thiết lập khóa học</a
+                            <a
+                              href="/feature/nguoi-dung-da-tang.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/5.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Người dùng đa tầng
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Kết nối với nhiều người dùng mới, xây dựng
+                                  cộng đồng lớn mạnh
+                                </p>
+                              </div></a
                             >
                           </li>
+
                           <li class="has-dropdown">
-                            <a href="dieu-kien-khoa-hoc.html"
-                              >Tạo điều kiện khóa học</a
+                            <a
+                              href="/feature/dieu-kien-khoa-hoc.html"
+                              style="display: flex"
                             >
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="nguoi-dung-da-tang.html"
-                              >Người dùng đa tầng</a
+                              <img
+                                src="./assets/media/1.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div style="margin-left: 5px; padding-left: 5px">
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Tạo điều kiện khóa học
+                                </h3>
+
+                                <p
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: var(--color-body);
+                                  "
+                                >
+                                  Toàn quyền quyết định nội dung và điều kiện
+                                  khóa học
+                                </p>
+                              </div></a
                             >
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="#">Tiện lợi với ứng dụng di dộng</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="vung-quang-cao.html">Vùng quảng cáo</a>
                           </li>
                         </ul>
                       </li>
@@ -170,47 +624,42 @@
                       <li class="has-dropdown has-menu-child-item">
                         <a href="#"
                           >Mở rộng
-                          <i class="feather-chevron-down"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              height="1em"
-                              viewBox="0 0 512 512"
-                            >
-                              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                              <path
-                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                              />
-                            </svg>
-                          </i>
+                          <i class="feather-chevron-down"></i>
                         </a>
                         <ul class="submenu">
                           <li class="has-dropdown">
                             <a href="#">Challenge</a>
                           </li>
                           <li class="has-dropdown">
-                            <a href="affiliate-2-tang.html">Affiliate 2 tầng</a>
+                            <a href="/feature/affiliate-2-tang.html"
+                              >Affiliate 2 tầng</a
+                            >
                           </li>
                           <li class="has-dropdown">
-                            <a href="qua-tang.html">Quà tặng</a>
+                            <a href="/feature/qua-tang.html">Quà tặng</a>
                           </li>
                           <li class="has-dropdown">
-                            <a href="ung-dung-di-dong.html">Moblie App riêng</a>
+                            <a href="/feature/ung-dung-di-dong.html"
+                              >Moblie App riêng</a
+                            >
                           </li>
                           <li class="has-dropdown"><a href="#">Flow</a></li>
                           <li class="has-dropdown">
                             <a href="#">Chọn giao diện mẫu</a>
                           </li>
                           <li class="has-dropdown">
-                            <a href="giao-dien-rieng.html"
+                            <a href="/feature/giao-dien-rieng.html"
                               >Giao diện riêng theo yêu cầu</a
                             >
                           </li>
                           <li class="has-dropdown">
-                            <a href="LIVESTREAM.html">Livestream</a>
+                            <a href="/feature/LIVESTREAM.html">Livestream</a>
                           </li>
                           <li class="has-dropdown">
-                            <a href="mentor.html">Mentor</a>
+                            <a href="/feature/mentor.html">Mentor</a>
                           </li>
+
+                          <!-- "#" -->
                         </ul>
                       </li>
 
@@ -256,7 +705,7 @@
                       </li>
 
                       <li class="has-dropdown has-menu-child-item">
-                        <a href="https://docs.gamifa.com/bang-gia">Bảng giá </a>
+                        <a href="/feature/pricing.html">Bảng giá </a>
                       </li>
 
                       <li class="has-dropdown has-menu-child-item">
@@ -374,7 +823,56 @@
                       "
                     >
                       <li class="">
-                        <a href="nguoi-dung-tich-cuc.html"
+                        <a href="/feature/bang-xep-hang.html">Bảng xếp hạng</a>
+                      </li>
+                      <li class="">
+                        <a href="/feature/trao-thuong.html">Trao thưởng</a>
+                      </li>
+                      <li class="">
+                        <a href="/feature/phan-quyen-quan-tri.html"
+                          >Phân quyền quản trị
+                        </a>
+                      </li>
+                      <li class="">
+                        <a href="/feature/tao-su-kien.html">Tạo sự kiện</a>
+                      </li>
+                      <li class="">
+                        <a href="/feature/mang-xa-hoi.html"
+                          >Mạng xã hội của bạn</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="/feature/mo-rong-thanh-vien.html"
+                          >Mở rộng thành viên</a
+                        >
+                      </li>
+
+                      <li class="">
+                        <a href="/feature/noi-dung-noi-bat.html"
+                          >Nội dung nổi bật</a
+                        >
+                      </li>
+
+                      <li class="">
+                        <a href="/feature/thiet-lap-thong-bao.html"
+                          >Thiết lập thông báo</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="/feature/thiet-lap-khoa-hoc.html"
+                          >Thiết lập khóa học</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="#">Tiện lợi với ứng dụng di dộng</a>
+                      </li>
+                      <li class="">
+                        <a href="/feature/vung-quang-cao.html"
+                          >Vùng quảng cáo</a
+                        >
+                      </li>
+                      <li class="">
+                        <a href="/feature/nguoi-dung-tich-cuc.html"
                           >Nhận diện người dùng tích cực</a
                         >
                       </li>
@@ -382,49 +880,14 @@
                         <a href="#">Fan cuồng nội dung của bạn</a>
                       </li>
                       <li class="">
-                        <a href="trao-thuong.html">Trao thưởng</a>
-                      </li>
-                      <li class="">
-                        <a href="mang-xa-hoi.html">Mạng xã hội của bạn</a>
-                      </li>
-                      <li class="">
-                        <a href="mo-rong-thanh-vien.html">Mở rộng thành viên</a>
-                      </li>
-                      <li class="">
-                        <a href="phan-quyen-quan-tri.html"
-                          >Phân quyền quản trị
-                        </a>
-                      </li>
-                      <li class="">
-                        <a href="noi-dung-noi-bat.html">Nội dung nổi bật</a>
-                      </li>
-                      <li class="">
-                        <a href="bang-xep-hang.html">Bảng xếp hạng</a>
-                      </li>
-                      <li class="">
-                        <a href="tao-su-kien.html">Tạo sự kiện</a>
-                      </li>
-                      <li class="">
-                        <a href="thiet-lap-thong-bao.html"
-                          >Thiết lập thông báo</a
+                        <a href="/feature/nguoi-dung-da-tang.html"
+                          >Người dùng đa tầng</a
                         >
                       </li>
                       <li class="">
-                        <a href="thiet-lap-khoa-hoc.html">Thiết lập khóa học</a>
-                      </li>
-                      <li class="">
-                        <a href="dieu-kien-khoa-hoc.html"
+                        <a href="/feature/dieu-kien-khoa-hoc.html"
                           >Tạo điều kiện khóa học</a
                         >
-                      </li>
-                      <li class="">
-                        <a href="nguoi-dung-da-tang.html">Người dùng đa tầng</a>
-                      </li>
-                      <li class="">
-                        <a href="#">Tiện lợi với ứng dụng di dộng</a>
-                      </li>
-                      <li class="">
-                        <a href="vung-quang-cao.html">Vùng quảng cáo</a>
                       </li>
                     </ul>
                   </li>
@@ -458,28 +921,32 @@
                     >
                       <li class=""><a href="#">Challenge</a></li>
                       <li class="">
-                        <a href="affiliate-2-tang.html">Affiliate 2 tầng</a>
+                        <a href="/feature/affiliate-2-tang.html"
+                          >Affiliate 2 tầng</a
+                        >
                       </li>
                       <li class="">
-                        <a href="qua-tang.html">Quà tặng</a>
+                        <a href="/feature/qua-tang.html">Quà tặng</a>
                       </li>
                       <li class="">
-                        <a href="ung-dung-di-dong.html">Moblie App riêng</a>
+                        <a href="/feature/ung-dung-di-dong.html"
+                          >Moblie App riêng</a
+                        >
                       </li>
                       <li class=""><a href="#">Flow</a></li>
                       <li class="">
                         <a href="#">Chọn giao diện mẫu</a>
                       </li>
                       <li class="">
-                        <a href="giao-dien-rieng.html"
+                        <a href="/feature/giao-dien-rieng.html"
                           >Giao diện riêng theo yêu cầu</a
                         >
                       </li>
                       <li class="">
-                        <a href="LIVESTREAM.html">Livestream</a>
+                        <a href="/feature/LIVESTREAM.html">Livestream</a>
                       </li>
                       <li class="">
-                        <a href="mentor.html">Mentor</a>
+                        <a href="/feature/mentor.html">Mentor</a>
                       </li>
                     </ul>
                   </li>
@@ -524,8 +991,8 @@
                     </ul>
                   </li>
 
-                  <li class="has-dropdown has-menu-child-item">
-                    <a href="https://docs.gamifa.com/bang-gia">Bảng giá </a>
+                  <li class="">
+                    <a href="/feature/pricing.html">Bảng giá </a>
                   </li>
 
                   <li class="has-dropdown has-menu-child-item">
