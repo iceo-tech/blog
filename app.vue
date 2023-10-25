@@ -624,39 +624,282 @@
                       <li class="has-dropdown has-menu-child-item">
                         <a href="#"
                           >Mở rộng
-                          <i class="feather-chevron-down"></i>
+                          <i class="feather-chevron-down">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="1em"
+                              viewBox="0 0 512 512"
+                            >
+                              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                              <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                              />
+                            </svg>
+                          </i>
                         </a>
                         <ul class="submenu">
                           <li class="has-dropdown">
-                            <a href="#">Challenge</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="/feature/affiliate-2-tang.html"
-                              >Affiliate 2 tầng</a
+                            <a href="#" style="display: flex">
+                              <img
+                                src="./assets/media/maauxgiao diện theo yêu càu (2).png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Challenge
+                                </h3>
+                              </div></a
                             >
                           </li>
                           <li class="has-dropdown">
-                            <a href="/feature/qua-tang.html">Quà tặng</a>
-                          </li>
-                          <li class="has-dropdown">
-                            <a href="/feature/ung-dung-di-dong.html"
-                              >Moblie App riêng</a
+                            <a
+                              href="/feature/affiliate-2-tang.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/afiliate.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Affiliate 2 tầng
+                                </h3>
+                              </div></a
                             >
                           </li>
-                          <li class="has-dropdown"><a href="#">Flow</a></li>
+
                           <li class="has-dropdown">
-                            <a href="#">Chọn giao diện mẫu</a>
+                            <a
+                              href="/feature/qua-tang.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/quà tặng.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Quà tặng
+                                </h3>
+                              </div></a
+                            >
                           </li>
+
                           <li class="has-dropdown">
-                            <a href="/feature/giao-dien-rieng.html"
-                              >Giao diện riêng theo yêu cầu</a
+                            <a
+                              href="/feature/ung-dung-di-dong.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/10.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Moblie App riêng
+                                </h3>
+                              </div></a
                             >
                           </li>
                           <li class="has-dropdown">
-                            <a href="/feature/LIVESTREAM.html">Livestream</a>
+                            <a href="#" style="display: flex">
+                              <img
+                                src="./assets/media/flow.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Flow
+                                </h3>
+                              </div></a
+                            >
                           </li>
                           <li class="has-dropdown">
-                            <a href="/feature/mentor.html">Mentor</a>
+                            <a href="#" style="display: flex">
+                              <img
+                                src="./assets/media/giao diện mẫu.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Chọn giao diện mẫu
+                                </h3>
+                              </div></a
+                            >
+                          </li>
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/giao-dien-rieng.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/maauxgiao diện theo yêu càu.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Giao diện riêng theo yêu cầu
+                                </h3>
+                              </div></a
+                            >
+                          </li>
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/LIVESTREAM.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/livetream.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Livestream
+                                </h3>
+                              </div></a
+                            >
+                          </li>
+                          <li class="has-dropdown">
+                            <a
+                              href="/feature/mentor.html"
+                              style="display: flex"
+                            >
+                              <img
+                                src="./assets/media/mentor.png"
+                                alt="Icon Images"
+                                style="max-height: 30px; max-width: 30px"
+                              />
+                              <div
+                                style="
+                                  margin-left: 5px;
+                                  padding-left: 5px;
+                                  display: flex;
+                                  align-items: center;
+                                "
+                              >
+                                <h3
+                                  style="
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    margin-bottom: 5px;
+                                  "
+                                >
+                                  Mentor
+                                </h3>
+                              </div></a
+                            >
                           </li>
 
                           <!-- "#" -->
@@ -1050,34 +1293,21 @@
           </div>
         </div>
 
-        <!-- <div class="rbt-progress-parent rbt-backto-top-active">
-        <svg
-          class="rbt-back-circle svg-inner"
-          width="100%"
-          height="100%"
-          viewBox="-1 -1 102 102"
-        >
-          <path
-            d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-            style="
-              transition: stroke-dashoffset 10ms linear 0s;
-              stroke-dasharray: 307.919, 307.919;
-              stroke-dashoffset: 298.135;
-            "
-          ></path>
-        </svg>
-      </div> -->
         <router-view />
       </body>
 
-      <!-- <body>
-    </body> -->
-      <!-- <Footer /> -->
-
       <!-- style="background-color: #192335 !important" -->
     </div>
-    <!-- <footer>
-      <div class="copyright-area copyright-style-1 ptb--20">
+    <footer>
+      <div
+        class="copyright-area copyright-style-1 ptb--20"
+        style="
+          width: 100%;
+          height: 100%;
+          float: left;
+          background-color: #192335 !important;
+        "
+      >
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
@@ -1116,7 +1346,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </client-only>
 </template>
 

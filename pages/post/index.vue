@@ -230,6 +230,8 @@ export default {
     float: left;
     font-size: 16px;
     margin-bottom: 10px;
+    z-index: 99;
+    position: inherit;
     // padding: 10px;
 
     a {
