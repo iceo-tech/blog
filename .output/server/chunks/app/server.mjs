@@ -582,7 +582,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/_slug_-4eb39d32.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_slug_-167a4091.mjs').then((m) => m.default || m)
   },
   {
     name: "post",
@@ -590,7 +590,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-ed4bd63e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-e9c54880.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {

@@ -817,7 +817,7 @@
                               style="display: flex"
                             >
                               <img
-                                src="./assets/media/maauxgiao diện theo yêu càu.png"
+                                src="./assets/media/giaodien.png"
                                 alt="Icon Images"
                                 style="max-height: 30px; max-width: 30px"
                               />
