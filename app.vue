@@ -641,7 +641,7 @@
                           <li class="has-dropdown">
                             <a href="#" style="display: flex">
                               <img
-                                src="./assets/media/maauxgiao diện theo yêu càu (2).png"
+                                src="./assets/media/maauxgiao.png"
                                 alt="Icon Images"
                                 style="max-height: 30px; max-width: 30px"
                               />
@@ -702,7 +702,7 @@
                               style="display: flex"
                             >
                               <img
-                                src="./assets/media/quà tặng.png"
+                                src="./assets/media/gift.png"
                                 alt="Icon Images"
                                 style="max-height: 30px; max-width: 30px"
                               />
@@ -787,7 +787,7 @@
                           <li class="has-dropdown">
                             <a href="#" style="display: flex">
                               <img
-                                src="./assets/media/giao diện mẫu.png"
+                                src="./assets/media/giaodienmau.png"
                                 alt="Icon Images"
                                 style="max-height: 30px; max-width: 30px"
                               />
