@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap");
+
+//Base color, use in Base color
+$primaryColor: #46b18f;
+$primaryBackground: #16171b;
+$primaryLightColor: #46b18f;
+$primaryBoldColor: #3c085a;
+$borderColor: #f0f0f0;
+$textColor: #fff;
+$textLightColor: #aaa;
+$falseColor: #d04437;
+$shadowColor: #f0f0f0;
+$backgroundColor: #16171b;
+$bodyBackground: #16171b;
+$borderRadiusPrimary: 16px;
+
+$fontFamily: "Plus Jakarta Sans", "Roboto", "Verdana", "Geneva", "Tahoma",
+  sans-serif;
+$fontBold: "Outfit", sans-serif;
+$fontOther: "Outfit", sans-serif;
+
+$firstColor: #5e0d8d;
+$successColor: #2a9d8f;
+$secondColor: #ef5777;
+$dangerColor: #ff3f34;
+$startColor: #b966e7;
+$endColor: #2f57ef;
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == max {
+    @media (min-width: 1520px) {
+      @content;
+    }
+  } @else if $point == laptop {
+    @media (min-width: 1260px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (min-width: 960px) and (max-width: 1259px) {
+      @content;
+    }
+  } @else if $point == phablet {
+    @media (max-width: 959px) {
+      @content;
+    }
+  } @else if $point == small_phablet {
+    @media (max-width: 700px) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: 500px) {
+      @content;
+    }
+  } @else if $point == small_mobile {
+    @media (max-width: 420px) {
+      @content;
+    }
+  } @else if $point == tiny_mobile {
+    @media (max-width: 360px) {
+      @content;
+    }
+  }
+}
