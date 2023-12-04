@@ -68,7 +68,7 @@
                 <div class="header-left rbt-header-content">
                   <div class="header-info">
                     <div class="logo" style="display: block; background: none">
-                      <a href="/">
+                      <a href="https://gamifa.vn/">
                         <img
                           src="./assets/media/logo.png"
                           alt="Gamifa Logo"
@@ -109,7 +109,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/bang-xep-hang.html"
+                              href="https://gamifa.vn/feature/bang-xep-hang.html"
                               style="display: flex"
                             >
                               <img
@@ -143,7 +143,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/trao-thuong.html"
+                              href="https://gamifa.vn/feature/trao-thuong.html"
                               style="display: flex"
                             >
                               <img
@@ -177,7 +177,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/phan-quyen-quan-tri.html"
+                              href="https://gamifa.vn/feature/phan-quyen-quan-tri.html"
                               style="display: flex"
                             >
                               <img
@@ -211,7 +211,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/tao-su-kien.html"
+                              href="https://gamifa.vn/feature/tao-su-kien.html"
                               style="display: flex"
                             >
                               <img
@@ -247,7 +247,7 @@
                           <!-- </li> -->
                           <li class="has-dropdown">
                             <a
-                              href="/feature/mang-xa-hoi.html"
+                              href="https://gamifa.vn/feature/mang-xa-hoi.html"
                               style="display: flex"
                             >
                               <img
@@ -281,7 +281,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/mo-rong-thanh-vien.html"
+                              href="https://gamifa.vn/feature/mo-rong-thanh-vien.html"
                               style="display: flex"
                             >
                               <img
@@ -315,7 +315,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/noi-dung-noi-bat.html"
+                              href="https://gamifa.vn/feature/noi-dung-noi-bat.html"
                               style="display: flex"
                             >
                               <img
@@ -350,7 +350,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/thiet-lap-thong-bao.html"
+                              href="https://gamifa.vn/feature/thiet-lap-thong-bao.html"
                               style="display: flex"
                             >
                               <img
@@ -384,7 +384,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/thiet-lap-khoa-hoc.html"
+                              href="https://gamifa.vn/feature/thiet-lap-khoa-hoc.html"
                               style="display: flex"
                             >
                               <img
@@ -449,7 +449,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/vung-quang-cao.html"
+                              href="https://gamifa.vn/feature/vung-quang-cao.html"
                               style="display: flex"
                             >
                               <img
@@ -484,7 +484,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/nguoi-dung-tich-cuc.html"
+                              href="https://gamifa.vn/feature/nguoi-dung-tich-cuc.html"
                               style="display: flex"
                             >
                               <img
@@ -551,7 +551,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/nguoi-dung-da-tang.html"
+                              href="https://gamifa.vn/feature/nguoi-dung-da-tang.html"
                               style="display: flex"
                             >
                               <img
@@ -586,7 +586,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/dieu-kien-khoa-hoc.html"
+                              href="https://gamifa.vn/feature/dieu-kien-khoa-hoc.html"
                               style="display: flex"
                             >
                               <img
@@ -667,7 +667,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/affiliate-2-tang.html"
+                              href="https://gamifa.vn/feature/affiliate-2-tang.html"
                               style="display: flex"
                             >
                               <img
@@ -698,7 +698,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/qua-tang.html"
+                              href="https://gamifa.vn/feature/qua-tang.html"
                               style="display: flex"
                             >
                               <img
@@ -729,7 +729,7 @@
 
                           <li class="has-dropdown">
                             <a
-                              href="/feature/ung-dung-di-dong.html"
+                              href="https://gamifa.vn/feature/ung-dung-di-dong.html"
                               style="display: flex"
                             >
                               <img
@@ -813,7 +813,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/giao-dien-rieng.html"
+                              href="https://gamifa.vn/feature/giao-dien-rieng.html"
                               style="display: flex"
                             >
                               <img
@@ -843,7 +843,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/LIVESTREAM.html"
+                              href="https://gamifa.vn/feature/LIVESTREAM.html"
                               style="display: flex"
                             >
                               <img
@@ -873,7 +873,7 @@
                           </li>
                           <li class="has-dropdown">
                             <a
-                              href="/feature/mentor.html"
+                              href="https://gamifa.vn/feature/mentor.html"
                               style="display: flex"
                             >
                               <img
@@ -948,7 +948,9 @@
                       </li>
 
                       <li class="has-dropdown has-menu-child-item">
-                        <a href="/feature/pricing.html">Bảng giá </a>
+                        <a href="https://gamifa.vn/feature/pricing.html"
+                          >Bảng giá
+                        </a>
                       </li>
 
                       <li class="has-dropdown has-menu-child-item">
@@ -1005,7 +1007,7 @@
             <div class="inner-top">
               <div class="content">
                 <div class="logo" style="display: block; background: none">
-                  <a href="/">
+                  <a href="https://gamifa.vn/">
                     <img
                       src="./assets/media/logo.png"
                       alt="Education Logo Images"
@@ -1066,43 +1068,54 @@
                       "
                     >
                       <li class="">
-                        <a href="/feature/bang-xep-hang.html">Bảng xếp hạng</a>
+                        <a href="https://gamifa.vn/feature/bang-xep-hang.html"
+                          >Bảng xếp hạng</a
+                        >
                       </li>
                       <li class="">
-                        <a href="/feature/trao-thuong.html">Trao thưởng</a>
+                        <a href="https://gamifa.vn/feature/trao-thuong.html"
+                          >Trao thưởng</a
+                        >
                       </li>
                       <li class="">
-                        <a href="/feature/phan-quyen-quan-tri.html"
+                        <a
+                          href="https://gamifa.vn/feature/phan-quyen-quan-tri.html"
                           >Phân quyền quản trị
                         </a>
                       </li>
                       <li class="">
-                        <a href="/feature/tao-su-kien.html">Tạo sự kiện</a>
+                        <a href="https://gamifa.vn/feature/tao-su-kien.html"
+                          >Tạo sự kiện</a
+                        >
                       </li>
                       <li class="">
-                        <a href="/feature/mang-xa-hoi.html"
+                        <a href="https://gamifa.vn/feature/mang-xa-hoi.html"
                           >Mạng xã hội của bạn</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/mo-rong-thanh-vien.html"
+                        <a
+                          href="https://gamifa.vn/feature/mo-rong-thanh-vien.html"
                           >Mở rộng thành viên</a
                         >
                       </li>
 
                       <li class="">
-                        <a href="/feature/noi-dung-noi-bat.html"
+                        <a
+                          href="https://gamifa.vn/feature/noi-dung-noi-bat.html"
                           >Nội dung nổi bật</a
                         >
                       </li>
 
                       <li class="">
-                        <a href="/feature/thiet-lap-thong-bao.html"
+                        <a
+                          href="https://gamifa.vn/feature/thiet-lap-thong-bao.html"
                           >Thiết lập thông báo</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/thiet-lap-khoa-hoc.html"
+                        <a
+                          href="https://gamifa.vn/feature/thiet-lap-khoa-hoc.html"
                           >Thiết lập khóa học</a
                         >
                       </li>
@@ -1110,12 +1123,13 @@
                         <a href="#">Tiện lợi với ứng dụng di dộng</a>
                       </li>
                       <li class="">
-                        <a href="/feature/vung-quang-cao.html"
+                        <a href="https://gamifa.vn/feature/vung-quang-cao.html"
                           >Vùng quảng cáo</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/nguoi-dung-tich-cuc.html"
+                        <a
+                          href="https://gamifa.vn/feature/nguoi-dung-tich-cuc.html"
                           >Nhận diện người dùng tích cực</a
                         >
                       </li>
@@ -1123,12 +1137,14 @@
                         <a href="#">Fan cuồng nội dung của bạn</a>
                       </li>
                       <li class="">
-                        <a href="/feature/nguoi-dung-da-tang.html"
+                        <a
+                          href="https://gamifa.vn/feature/nguoi-dung-da-tang.html"
                           >Người dùng đa tầng</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/dieu-kien-khoa-hoc.html"
+                        <a
+                          href="https://gamifa.vn/feature/dieu-kien-khoa-hoc.html"
                           >Tạo điều kiện khóa học</a
                         >
                       </li>
@@ -1164,15 +1180,19 @@
                     >
                       <li class=""><a href="#">Challenge</a></li>
                       <li class="">
-                        <a href="/feature/affiliate-2-tang.html"
+                        <a
+                          href="https://gamifa.vn/feature/affiliate-2-tang.html"
                           >Affiliate 2 tầng</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/qua-tang.html">Quà tặng</a>
+                        <a href="https://gamifa.vn/feature/qua-tang.html"
+                          >Quà tặng</a
+                        >
                       </li>
                       <li class="">
-                        <a href="/feature/ung-dung-di-dong.html"
+                        <a
+                          href="https://gamifa.vn/feature/ung-dung-di-dong.html"
                           >Moblie App riêng</a
                         >
                       </li>
@@ -1181,15 +1201,19 @@
                         <a href="#">Chọn giao diện mẫu</a>
                       </li>
                       <li class="">
-                        <a href="/feature/giao-dien-rieng.html"
+                        <a href="https://gamifa.vn/feature/giao-dien-rieng.html"
                           >Giao diện riêng theo yêu cầu</a
                         >
                       </li>
                       <li class="">
-                        <a href="/feature/LIVESTREAM.html">Livestream</a>
+                        <a href="https://gamifa.vn/feature/LIVESTREAM.html"
+                          >Livestream</a
+                        >
                       </li>
                       <li class="">
-                        <a href="/feature/mentor.html">Mentor</a>
+                        <a href="https://gamifa.vn/feature/mentor.html"
+                          >Mentor</a
+                        >
                       </li>
                     </ul>
                   </li>
@@ -1235,7 +1259,9 @@
                   </li>
 
                   <li class="">
-                    <a href="/feature/pricing.html">Bảng giá </a>
+                    <a href="https://gamifa.vn/feature/pricing.html"
+                      >Bảng giá
+                    </a>
                   </li>
 
                   <li class="has-dropdown has-menu-child-item">
